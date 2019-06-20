@@ -2,6 +2,7 @@ from player import Player
 
 
 class Computer(Player):
+    # TODO: implement AI to make moves    
     def __init__(self, table, side):
         super().__init__(table, side)
 
